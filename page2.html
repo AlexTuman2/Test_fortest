@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моє портфоліо | Мій перший сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Моє портфоліо</h1>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="portfolio.html" class="active">Портфоліо</a>
+            <a href="portfolio.html#projects">Мої роботи</a>
+            <a href="portfolio.html#skills">Навички</a>
+            <a href="portfolio.html#contact">Контакти</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-portfolio">
+            <h2>Детальніше про мене</h2>
+            <div class="card">
+                <p>Ця сторінка є продовженням мого сайту. Тут я розміщую детальну інформацію про свої проекти та навички.</p>
+                <p>Я навчаюся веб-розробці та вже опанував основи HTML, CSS та JavaScript.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Мої роботи</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Перший сайт</h3>
+                    <p>Мій дебютний сайт на GitHub Pages</p>
+                    <a href="index.html" class="project-link">Переглянути</a>
+                </div>
+                <div class="project-card">
+                    <h3>Портфоліо</h3>
+                    <p>Ця сторінка портфоліо</p>
+                    <span class="project-status">В процесі</span>
+                </div>
+                <div class="project-card">
+                    <h3>Майбутній проект</h3>
+                    <p>Планую створити інтерактивний додаток</p>
+                    <span class="project-status">Заплановано</span>
+                </div>
+                <div class="project-card">
+                    <h3>Галерея</h3>
+                    <p>Колекція моїх робіт</p>
+                    <span class="project-status">Скоро</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Мої навички</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Зв'язатися зі мною</h2>
+            <div class="contact-info">
+                <p>📧 Email: <a href="mailto:example@example.com">example@example.com</a></p>
+                <p>📱 Телефон: +380 XX XXX XX XX</p>
+                <p>💼 GitHub: <a href="https://github.com/ваш-username" target="_blank">github.com/ваш-username</a></p>
+            </div>
+            <button id="colorButton2">Змінити колір фону</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Мій сайт. Усі права захищені. | <a href="index.html">На головну</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
